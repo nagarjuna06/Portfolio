@@ -328,7 +328,7 @@ export const openSourceProjects = [
     image: "/project_images/calculator.png",
     title: "Calculator Application",
     description: "Basic Calculator",
-    link: "https://basic-caluclator.netlify.app",
+    link: "https://calculator-base.netlify.app",
     view: "https://github.com/nagarjuna06/Calculator",
     linkText: "nagarjuna06.github.io",
     icon: "link",
