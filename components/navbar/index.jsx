@@ -54,9 +54,9 @@ const Navbar = () => {
         ))}
         <div onClick={changeTheme} className="hover:cursor-pointer">
           {theme ? (
-            <BiSun className=" w-6 h-6 text-yellow-400 hover:text-blue-400 active:-rotate-90 duration-500" />
+            <BiMoon className=" w-6 h-6 text-black  active:rotate-90 duration-500" />
           ) : (
-            <BiMoon className=" w-6 h-6 text-white hover:text-blue-400 active:rotate-90 duration-500" />
+            <BiSun className=" w-6 h-6 text-yellow-400  active:-rotate-90 duration-500" />
           )}
         </div>
       </div>

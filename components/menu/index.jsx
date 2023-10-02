@@ -35,11 +35,11 @@ const Menu = ({ theme, setTheme, pathname }) => {
               <div>
                 {theme ? (
                   <>
-                    <BiSun className="text-yellow-400 text-lg" /> light
+                    <BiMoon className="text-black text-lg" /> dark
                   </>
                 ) : (
                   <>
-                    <BiMoon className="text-white text-lg" /> dark
+                    <BiSun className="text-yellow-400 text-lg" /> light
                   </>
                 )}
               </div>
