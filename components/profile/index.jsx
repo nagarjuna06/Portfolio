@@ -1,8 +1,23 @@
+"use client";
 import { profileData } from "@/utils";
 import Image from "next/image";
 import CustomLink from "../customLink";
-
+import { motion } from "framer-motion";
 const Profile = () => {
+  const textVariants = {
+    initial: {
+      x: 500,
+      opacity: 0,
+    },
+    animate: {
+      x: 0,
+      opacity: 1,
+      transition: {
+        duration: 1,
+        staggerChildren: 0.1,
+      },
+    },
+  };
   return (
     <div className="flex w-full phone:flex-col laptop:flex-row gap-5 p-3 items-center mt-5">
       <div className="flex laptop:flex-col items-center gap-10 phone:flex-row  text-gray-500 w-full">
@@ -28,15 +43,25 @@ const Profile = () => {
       <div>
         <div className="w-full">
           {profileData.profileDescriptions.map((each, index) => (
-            <div key={index} className="mb-10">
-              <h1 className="phone:text-base font-bold laptop:text-xl">
+            <motion.div
+              variants={textVariants}
+              initial="initial"
+              animate="animate"
+              key={index}
+              className="mb-10"
+            >
+              <motion.h1
+                variants={textVariants}
+                className="phone:text-base font-bold laptop:text-xl"
+              >
                 {each.title}
-              </h1>
-              <p
+              </motion.h1>
+              <motion.p
+                variants={textVariants}
                 className="phone:text-sm laptop:text-base"
                 dangerouslySetInnerHTML={{ __html: each.description }}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

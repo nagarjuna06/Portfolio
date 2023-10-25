@@ -91,6 +91,25 @@ export const socialList = [
   },
 ];
 
+export const introLinks = [
+  {
+    text: "About Me",
+    icon: "arrow",
+    link: "/about",
+  },
+  {
+    text: "View Resume",
+    icon: "arrow",
+    link: "https://drive.google.com/file/d/1Q3DqG_MYCWsV87Ko0M7F7Iw4IG91CXP6/view?usp=sharing",
+    target: "blank",
+  },
+  {
+    text: "Contact",
+    icon: "arrow",
+    link: "/contact",
+  },
+];
+
 export const profileData = {
   name: "Nagarjuna Chenna",
   avatar: "/profile/avatar.jpeg",
@@ -113,6 +132,12 @@ export const profileData = {
       icon: BiLogoLinkedin,
       target: "blank",
       move: false,
+    },
+    {
+      text: "View Resume",
+      icon: "arrow",
+      link: "https://drive.google.com/file/d/1Q3DqG_MYCWsV87Ko0M7F7Iw4IG91CXP6/view?usp=sharing",
+      target: "blank",
     },
     {
       text: "Contact Me",
@@ -361,11 +386,13 @@ export const contactInfoList = [
     Icon: MdEmail,
     title: "chennanagarjuna4@gmail.com",
     subtitle: "E-mail",
+    link: "mailto:chennanagarjuna4@gmail.com",
   },
   {
     Icon: MdLocalPhone,
     title: "+91 9391568280",
     subtitle: "Phone number",
+    link: "tel:9391568280",
   },
   {
     Icon: BsWhatsapp,

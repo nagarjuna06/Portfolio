@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import CustomLink from "../customLink";
-
+import { motion } from "framer-motion";
 const ProjectCard = ({
   image,
   title,
@@ -13,8 +13,12 @@ const ProjectCard = ({
   view = "",
 }) => {
   return (
-    <div className="card laptop:w-80 phone:w-80  bg-base-100 shadow-lg hover:shadow-cyan-400 laptop:hover:-translate-y-6 duration-500">
-      <figure>
+    <div className="card laptop:w-80 phone:w-80  bg-base-100 shadow-lg hover:shadow-cyan-400  duration-500 overflow-hidden">
+      <motion.figure
+        initial={{ scale: 1.3 }}
+        whileInView={{ scale: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Image
           src={image}
           width={400}
@@ -22,7 +26,7 @@ const ProjectCard = ({
           alt="project-image"
           draggable={false}
         />
-      </figure>
+      </motion.figure>
       <div className="card-body">
         <h2 className="card-title phone:text-base laptop:text-lg">{title}</h2>
         <p className="phone:text-sm laptop:text-base">{description}</p>

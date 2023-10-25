@@ -1,6 +1,9 @@
+"use client";
+
 import { socialList } from "@/utils";
 import React from "react";
 import CustomLink from "../customLink";
+import { motion } from "framer-motion";
 
 const Social = () => {
   return (
@@ -16,7 +19,14 @@ const Social = () => {
         Occasionally I&apos;ll post projects in LinkedIn.
         <div className="mt-5 grid laptop:grid-cols-3 phone:grid-cols-2 laptop:gap-8 phone:gap-5">
           {socialList.map((each, index) => (
-            <CustomLink key={index} {...each} move={false} target="blank" />
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <CustomLink {...each} move={false} target="blank" />
+            </motion.div>
           ))}
         </div>
       </div>
