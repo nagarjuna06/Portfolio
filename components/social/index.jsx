@@ -1,7 +1,6 @@
 "use client";
 
 import { socialList } from "@/utils";
-import React from "react";
 import CustomLink from "../customLink";
 import { motion } from "framer-motion";
 

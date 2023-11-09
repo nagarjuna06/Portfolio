@@ -57,8 +57,8 @@ export const latestWorkList = [
     image: "/project_images/urlshortner.jpg",
     title: "URL Shortener",
     description: "Convert long,ugly URL into beautiful short URL",
-    link: "https://u-short.netlify.app/",
-    linkText: "u-short.netlify.app",
+    link: "https://u-short.vercel.app",
+    linkText: "u-short.vercel.app",
     icon: "link",
   },
 ];
@@ -287,9 +287,9 @@ export const openSourceProjects = [
     image: "/project_images/urlshortner.jpg",
     title: "URL Shortner",
     description: "Convert long,ugly URL into beautiful short URL",
-    link: "https://u-short.netlify.app/",
-    view: "https://github.com/nagarjuna06/u-short",
-    linkText: "u-short.netlify.app",
+    link: "https://u-short.vercel.app/",
+    view: "https://github.com/nagarjuna06/URL-Shortener",
+    linkText: "u-short.vercel.app",
     icon: "link",
   },
   {
