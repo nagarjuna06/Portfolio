@@ -381,6 +381,15 @@ export const bigProjects = [
   },
 ];
 
+export const featured = [
+  {
+    image: "/project_images/issue-tracker.jpg",
+    title: "Issue Tracker",
+    description: "Its a platform maintain Issue Updates",
+    view: "https://github.com/nagarjuna06/issue-tracker",
+  },
+];
+
 export const contactInfoList = [
   {
     Icon: MdEmail,
