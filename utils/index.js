@@ -189,10 +189,10 @@ export const skillsList = [
     name: "Mongo DB",
     image: "/skills/mongo.svg",
   },
-  {
-    name: "MySQL",
-    image: "/skills/mysql.svg",
-  },
+  // {
+  //   name: "MySQL",
+  //   image: "/skills/mysql.svg",
+  // },
   {
     name: "HTML",
     image: "/skills/html.svg",
@@ -204,6 +204,10 @@ export const skillsList = [
   {
     name: "JavaScript",
     image: "/skills/javascript.svg",
+  },
+  {
+    name: "TypeScript",
+    image: "/skills/typescript.svg",
   },
   {
     name: "Git",
