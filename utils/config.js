@@ -6,7 +6,7 @@ const config = {
     "google-site-verification": "7ghmMjbGd9NJdCa5TKYmFvwp2JDPxyE0R6ocr7TdIxg",
   },
   openGraph: {
-    images: "/profile/avatar.jpeg",
+    images: "https://nagarjuna.vercel.app/favicon.ico",
   },
   keywords: [
     "full stack developer",
