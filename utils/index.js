@@ -38,6 +38,14 @@ export const navList = [
 
 export const latestWorkList = [
   {
+    image: "/project_images/jvks.png",
+    title: "JVKS Tirupati",
+    description: "Events,News,Gallery,Dashboards",
+    link: "https://www.jvkstirupati.org",
+    linkText: "jvkstirupati.org",
+    icon: "link",
+  },
+  {
     image: "/project_images/learnly.jpg",
     title: "Learnly",
     description: "Learnly Website built with React and Vite.js",
@@ -51,14 +59,6 @@ export const latestWorkList = [
     description: "A Dynamic Quiz Application with Authentication",
     link: "https://simpliquiz.netlify.app/",
     linkText: "simpliquiz.netlify.app",
-    icon: "link",
-  },
-  {
-    image: "/project_images/urlshortner.jpg",
-    title: "URL Shortener",
-    description: "Convert long,ugly URL into beautiful short URL",
-    link: "https://u-short.vercel.app",
-    linkText: "u-short.vercel.app",
     icon: "link",
   },
 ];
@@ -229,6 +229,13 @@ export const skillsList = [
 
 const experienceList = [
   {
+    title: "Csrk Info Tech",
+    start: "Dec 2023",
+    end: "Feb 2024",
+    description:
+      "During this internship i have learned New Technology Next.js and build seo Friendly websites",
+  },
+  {
     title: "Code Clause",
     start: "Jun 2023",
     end: "July 2023",
@@ -386,6 +393,14 @@ export const bigProjects = [
 ];
 
 export const featured = [
+  {
+    image: "/project_images/jvks.png",
+    title: "JVKS Tirupati",
+    description: "Events,News,Gallery,Dashboards",
+    link: "https://www.jvkstirupati.org",
+    linkText: "jvkstirupati.org",
+    icon: "link",
+  },
   {
     image: "/project_images/issue-tracker.jpg",
     title: "Issue Tracker",
