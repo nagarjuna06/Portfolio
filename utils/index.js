@@ -46,19 +46,20 @@ export const latestWorkList = [
     icon: "link",
   },
   {
+    image: "/project_images/issue-tracker.jpg",
+    title: "Issue Tracker",
+    description: "Its a platform maintain Issue Updates",
+    view: "https://github.com/nagarjuna06/issue-tracker",
+    link: "https://issue-track.vercel.app",
+    icon: "link",
+    linkText: "issue-track.vercel.app",
+  },
+  {
     image: "/project_images/learnly.jpg",
     title: "Learnly",
     description: "Learnly Website built with React and Vite.js",
     link: "https://learn-ly.netlify.app/",
     linkText: "learn-ly.netlify.app",
-    icon: "link",
-  },
-  {
-    image: "/project_images/simpliquiz.jpg",
-    title: "SimpliQuiz App",
-    description: "A Dynamic Quiz Application with Authentication",
-    link: "https://simpliquiz.netlify.app/",
-    linkText: "simpliquiz.netlify.app",
     icon: "link",
   },
 ];
