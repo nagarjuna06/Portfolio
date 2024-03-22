@@ -286,13 +286,13 @@ export const openSourceProjects = [
     icon: "link",
   },
   {
-    image: "/project_images/razorpay.png",
-    title: "Integrate Payment GateWay",
+    image: "/project_images/emi-calculator.png",
+    title: "EMI Calculator",
     description:
-      "Razorpay payment gateway with a React application for a fake store",
-    link: "https://razorpay-integration.netlify.app",
-    view: "https://github.com/nagarjuna06/Integrate_Payment_Gateway",
-    linkText: "razorpay.netlify.app",
+      "This is a simple EMI calculator designed to help you estimate your monthly loan repayment amount ",
+    link: "https://emi-cal-culator.vercel.app",
+    view: "https://github.com/nagarjuna06/emi-calculator",
+    linkText: "emi-calculator.vercel.app",
     icon: "link",
   },
   {
