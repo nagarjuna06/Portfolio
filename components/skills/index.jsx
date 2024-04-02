@@ -34,6 +34,7 @@ const Skills = () => {
               whileHover={{ rotate: 360 }}
               whileTap={{ rotate: 360 }}
               transition={{ duration: 1 }}
+              className="bg-white p-3 rounded-full"
             >
               <Image
                 src={each.image}

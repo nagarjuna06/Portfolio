@@ -175,6 +175,10 @@ export const profileData = {
 
 export const skillsList = [
   {
+    name: "Next.js",
+    image: "/skills/next.svg",
+  },
+  {
     name: "React",
     image: "/skills/react.svg",
   },
@@ -187,13 +191,26 @@ export const skillsList = [
     image: "/skills/node.svg",
   },
   {
+    name: "PostgreSQL",
+    image: "/skills/postgresql.svg",
+  },
+  {
+    name: "Redis",
+    image: "/skills/redis.svg",
+  },
+  {
+    name: "GraphQL",
+    image: "/skills/graphql.svg",
+  },
+  {
+    name: "Prisma ORM",
+    image: "/skills/prisma.svg",
+  },
+  {
     name: "Mongo DB",
     image: "/skills/mongo.svg",
   },
-  // {
-  //   name: "MySQL",
-  //   image: "/skills/mysql.svg",
-  // },
+
   {
     name: "HTML",
     image: "/skills/html.svg",
@@ -214,17 +231,17 @@ export const skillsList = [
     name: "Git",
     image: "/skills/git.svg",
   },
-  {
-    name: "Python",
-    image: "/skills/python.svg",
-  },
+  // {
+  //   name: "Python",
+  //   image: "/skills/python.svg",
+  // },
   {
     name: "Tailwind CSS",
     image: "/skills/tailwind.svg",
   },
   {
-    name: "Material UI",
-    image: "/skills/mui.svg",
+    name: "Bootstrap",
+    image: "/skills/bootstrap.svg",
   },
 ];
 
