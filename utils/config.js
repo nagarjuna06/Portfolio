@@ -9,6 +9,12 @@ const config = {
     images: "https://nagarjuna.vercel.app/favicon.ico",
   },
   keywords: [
+    "Nagarjuna Chenna",
+    "Chenna Nagajuna",
+    "Nagarjuna Full Stack Developer",
+    "Nagarjuna Frontend Developer",
+    "Chenna",
+    "Nagarjuna",
     "full stack developer",
     "web development",
     "front-end development",
