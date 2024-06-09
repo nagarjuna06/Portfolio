@@ -39,7 +39,8 @@ const TimeLine = ({ data }) => {
               variants={textVariants}
               className="phone:text-sm laptop:text-base text-[#0064f2]"
             >
-              {each.start} — {each.end}
+              {each.start} — {each.end}{" "}
+              <b>{each.months && `(${each.months} months)`}</b>
             </motion.p>
             <motion.p
               variants={textVariants}

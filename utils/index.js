@@ -101,7 +101,7 @@ export const introLinks = [
   {
     text: "View Resume",
     icon: "arrow",
-    link: "https://drive.google.com/file/d/1Q3DqG_MYCWsV87Ko0M7F7Iw4IG91CXP6/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1GZq2sJbbHPHdnCaj9RjJlzd5DHRFsVAX/view?usp=drive_link",
     target: "blank",
   },
   {
@@ -182,10 +182,10 @@ export const skillsList = [
     name: "React",
     image: "/skills/react.svg",
   },
-  {
-    name: "Redux",
-    image: "/skills/redux.svg",
-  },
+  // {
+  //   name: "Redux",
+  //   image: "/skills/redux.svg",
+  // },
   {
     name: "Node.js",
     image: "/skills/node.svg",
@@ -194,18 +194,18 @@ export const skillsList = [
     name: "PostgreSQL",
     image: "/skills/postgresql.svg",
   },
-  {
-    name: "Redis",
-    image: "/skills/redis.svg",
-  },
-  {
-    name: "GraphQL",
-    image: "/skills/graphql.svg",
-  },
-  {
-    name: "Prisma ORM",
-    image: "/skills/prisma.svg",
-  },
+  // {
+  //   name: "Redis",
+  //   image: "/skills/redis.svg",
+  // },
+  // {
+  //   name: "GraphQL",
+  //   image: "/skills/graphql.svg",
+  // },
+  // {
+  //   name: "Prisma ORM",
+  //   image: "/skills/prisma.svg",
+  // },
   {
     name: "Mongo DB",
     image: "/skills/mongo.svg",
@@ -231,35 +231,44 @@ export const skillsList = [
     name: "Git",
     image: "/skills/git.svg",
   },
-  // {
-  //   name: "Python",
-  //   image: "/skills/python.svg",
-  // },
+  {
+    name: "Python",
+    image: "/skills/python.svg",
+  },
   {
     name: "Tailwind CSS",
     image: "/skills/tailwind.svg",
   },
-  {
-    name: "Bootstrap",
-    image: "/skills/bootstrap.svg",
-  },
+  // {
+  //   name: "Bootstrap",
+  //   image: "/skills/bootstrap.svg",
+  // },
 ];
 
 const experienceList = [
   {
+    title: "Freelance Web Developer",
+    start: "Mar 2024",
+    end: "May 2024",
+    months: 3,
+    description:
+      "During this Freelance i have Build JVKS Tirupati (Oragnization) Project by using Next.js and build seo Friendly",
+  },
+  {
     title: "Csrk Info Tech",
     start: "Dec 2023",
     end: "Feb 2024",
+    months: 3,
     description:
       "During this internship i have learned New Technology Next.js and build seo Friendly websites",
   },
-  {
-    title: "Code Clause",
-    start: "Jun 2023",
-    end: "July 2023",
-    description:
-      "Internship — During the period that  I did an internship at Code Clause. Here I learned to work with React, among other things, and I found out that E-Commerce app development does interest me.",
-  },
+  // {
+  //   title: "Code Clause",
+  //   start: "Jun 2023",
+  //   end: "July 2023",
+  //   description:
+  //     "Internship — During the period that  I did an internship at Code Clause. Here I learned to work with React, among other things, and I found out that E-Commerce app development does interest me.",
+  // },
 ];
 
 const educationList = [
